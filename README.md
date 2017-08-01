@@ -6,9 +6,13 @@ Assumes the string will be formatted in the following format with one job per li
 SMPLE INPUTS AND OUTPUTS 
 
 test_string = %(
+
 a => b
+
 b => 
+
 c => 
+
 )
 
 puts dependancy_sort(test_string) #=> b,a,c
